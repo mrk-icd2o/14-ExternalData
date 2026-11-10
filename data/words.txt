@@ -1,0 +1,10 @@
+algorithm
+variable
+function
+boolean
+iteration
+abstraction
+binary
+pixel
+network
+encryption
