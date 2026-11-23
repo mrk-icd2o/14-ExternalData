@@ -1,6 +1,6 @@
 # Lesson 14 - External Data
 
-So far, all of the data in our programs has been typed directly into the code. Real programs usually get their data from somewhere else: a file, a database, or a website. Keeping data separate from code means the data can change (or grow to millions of rows) without rewriting the program.
+So far, all of the data in our programs has been typed directly into the code, or the user manually inputs. Real programs usually get their data from somewhere else: a file, a database, or a website. Keeping data separate from code means the data can change (or grow to millions of rows) without rewriting the program.
 
 ## Files and preload()
 
@@ -138,4 +138,13 @@ function draw() {
 
 You can also give `loadJSON()` a second function that runs if the data **can't** be loaded (no internet, or the site is down): `loadJSON(url, gotWeather, weatherFailed)`. The example code shows this.
 
-> **AP CSP:** Using data to find patterns and answer questions is Big Idea 2 (Data). Many Create Task projects use a list of data loaded this way.
+## AP CSP Create Task
+One of the requirements of the AP CSP Create Task is:
+
+Instructions for **input** from one of the following:
+* the user (including user actions that trigger events)
+* a device
+* an online data stream
+* a file
+
+As long as there is some sort of user interaction (button presses, input boxes etc) you're fine, but the concepts shown in this lesson (external files, APIs) are acceptable as well.

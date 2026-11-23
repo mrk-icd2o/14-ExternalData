@@ -1,7 +1,7 @@
 /*
    Description: Lesson 14 - External Data example
    Author: Mr. Kowalczewski
-   Date of last edit: October 28, 2026
+   Date of last edit: Novembe 23, 2026
 */
 
 // the data files are in the shared data/ folder, one level up
@@ -27,7 +27,8 @@ function preload() {
 function setup() {
   createCanvas(800, 600);
   textSize(16);
-
+  //console.log(words);
+  console.log(planetTable);
   // ----- API with a callback -----
   // gotWeather() runs when the data arrives
   // weatherFailed() runs if it can't be loaded (no internet, site down)
